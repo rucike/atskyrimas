@@ -24,4 +24,22 @@ namespace bandymas
             }
         }
     }
+
+    class skaiciavimas : matematika
+    {
+        public int skaicius;
+        public int ats = 1;
+        public skaiciavimas(int sk)
+        {
+            skaicius = sk;
+        }
+
+        public void mate()
+        {
+            for (int i = 1; i <= skaicius; i++)
+            {
+                ats *= i;
+            }
+        }
+    }
 }

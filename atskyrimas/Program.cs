@@ -24,8 +24,18 @@ namespace bandymas
             matematika obj = new matematika();
             obj.progresija();
 
+            int skaicius = 5;
+            skaiciavimas objk = new skaiciavimas(skaicius);
+            objk.mate();
+
+            Console.WriteLine("--SEKOS SKAICIAVIMAS--");
             Console.WriteLine("Reikia elementu: " + obj.n);
             Console.WriteLine("Galutinis atsakymas: " + obj.ats);
+            Console.WriteLine();
+            Console.WriteLine("--FAKTORIALO SKAICIAVIAMAS--");
+            Console.WriteLine("Skaiciuojamas " + skaicius + " faktorialas.");
+            Console.WriteLine("Suskaiciuotas faktorialas: " + objk.ats);
+
 
             Console.ReadLine();
         }
