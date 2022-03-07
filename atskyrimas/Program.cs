@@ -29,6 +29,7 @@ namespace bandymas
             objk.mate();
 
             Console.WriteLine("--SEKOS SKAICIAVIMAS--");
+            Console.WriteLine("----------");
             Console.WriteLine("Reikia elementu: " + obj.n);
             Console.WriteLine("Galutinis atsakymas: " + obj.ats);
             Console.WriteLine();
